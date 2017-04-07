@@ -1,4 +1,4 @@
-# coding: utf-8
+# frozen_string_literal: true
 
 begin
   require "./lib/sequel-page/version"
@@ -18,12 +18,13 @@ Gem::Specification.new do |spec|
 
   spec.require_paths = ["lib"]
   spec.files         = Dir.glob("{bin,lib}/**/*") + \
-    %w(Gemfile LICENSE README.md CHANGELOG.md)
+                       %w(Gemfile LICENSE README.md CHANGELOG.md)
 
-  spec.add_runtime_dependency "sequel"
-
+  spec.add_runtime_dependency "sequel", "~>4"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "pry"
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "rspec-given"
-  spec.add_development_dependency "pry"
+  spec.add_development_dependency "simplecov"
+  spec.add_development_dependency "codeclimate-test-reporter"
 end
