@@ -1,6 +1,8 @@
 # SequelPage
 
 [![Gem Version](https://badge.fury.io/rb/sequel-page.svg)](http://badge.fury.io/rb/sequel-page)
+[![Code Climate](https://codeclimate.com/github/skopciewski/sequel-page/badges/gpa.svg)](https://codeclimate.com/github/skopciewski/sequel-page)
+[![Dependency Status](https://gemnasium.com/badges/github.com/skopciewski/sequel-page.svg)](https://gemnasium.com/github.com/skopciewski/sequel-page)
 
 This extension adds the `Sequel::Dataset#page` method, which returns paginated 
 (limited and offset) datasets. Instead the `limit` and the `offset`, you can 
