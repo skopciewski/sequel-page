@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.files         = Dir.glob("{bin,lib}/**/*") + \
                        %w(Gemfile LICENSE README.md CHANGELOG.md)
 
-  spec.add_runtime_dependency "sequel", "~>4"
+  spec.add_runtime_dependency "sequel", "~>5"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "pry"
   spec.add_development_dependency "rspec"
