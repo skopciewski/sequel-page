@@ -18,5 +18,5 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 module SequelPage
-  VERSION = "1.0.2"
+  VERSION = "1.0.3"
 end
