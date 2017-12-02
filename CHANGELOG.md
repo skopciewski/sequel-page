@@ -1,3 +1,7 @@
+### 1.0.2 (2017.12.02)
+
+* update sequel dependency to version ~>5
+
 ### 1.0.1 (2017.04.07)
 
 * travis integration
