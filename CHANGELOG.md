@@ -1,3 +1,7 @@
+### 1.0.3 (2017.12.02)
+
+* update travis file
+
 ### 1.0.2 (2017.12.02)
 
 * update sequel dependency to version ~>5
